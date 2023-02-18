@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e6e6;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ContenidoPrincipal {
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 0.25em;
+  background-color: rgb(252, 252, 211);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.HeaderElements {
+  display: flex;
+  align-items: center; /*Centra los elementos verticalmente*/
+  justify-content: center; /*Centra los elementos horizontalmente*/
+}
+
+.HeaderElements div {
+  margin: 0 10px; /*Agrega un margen a los lados de cada elemento*/
+}
+
+.HeaderElements img {
+  height: 60px;
+  width: 60px;
+  border-radius: 0.35em;
+}
+
+.Tittle {
+  background-color: rgb(255, 239, 9);
+  color: rgb(24, 24, 24);
+  padding: 10px;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 0.25em;
+}
